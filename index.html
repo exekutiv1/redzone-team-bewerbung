@@ -562,7 +562,7 @@
             formData.append('payload_json', JSON.stringify(mobileMessage));
             
             // SICHERE Webhook-URL über Proxy (keine echte URL sichtbar)
-           const WEBHOOK_URL = 'https://celebrated-souffle-b8012b.netlify.app/.netlify/functions/webhook';
+           const WEBHOOK_URL = 'https://redzone-bewerbung.netlify.app/.netlify/functions/webhook';
             
             fetch(WEBHOOK_URL, {
                 method: 'POST',
